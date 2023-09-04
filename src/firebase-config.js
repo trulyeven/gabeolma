@@ -22,4 +22,4 @@ const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
 // 사용하기 위해 export
-export const db = getFirestore(app);
+export const db = getFirestore();
